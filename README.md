@@ -1,1 +1,2 @@
-# MizuiMiduki.github.io
+# このリポジトリについて
+[瑞井の個人サイト](https://mizuimiduki.github.io/)のソースコードです。
