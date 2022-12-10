@@ -1,0 +1,39 @@
+/*全体*/
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/*ヘッダーCSS*/
+.header{
+    margin: 0;
+    width: 100%;
+    background-color: aqua;
+}
+
+.header p{
+    margin: 0;
+    font-size: 20px;
+} 
+
+/*メイン*/
+
+.main h1{
+    text-align: center;
+}
+
+/*フッター(仮)*/
+.footer{
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+}
+
+.footer p{
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+}  
