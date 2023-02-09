@@ -1,5 +1,5 @@
 /*全体*/
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -7,7 +7,7 @@ body{
 }
 
 /*ヘッダーCSS*/
-.header{
+.header {
     margin: 0;
     width: 90%;
     background-color: aqua;
@@ -21,7 +21,7 @@ body{
     transform: translate(-50%, -50%);
 }
 
-.header-title{
+.header-title {
     margin: 0;
     font-size: 20px;
     margin-left: 15px;
@@ -29,11 +29,11 @@ body{
 }
 
 /*あとで削除*/
-.header-title p{
+.header-title p {
     margin: 0;
 }
 
-.headr-icon{
+.headr-icon {
     width: fit-content;
     margin-left: auto;
     margin-right: 15px;
@@ -42,18 +42,19 @@ body{
     display: flex;
 }
 
-.headr-icon{
+.headr-icon {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
 /*メイン*/
 
-.main h1{
+.main h1 {
     text-align: center;
 }
 
 /*フッター(仮)*/
-.footer{
+.footer {
     margin: 0;
     bottom: 0;
     width: 100%;
@@ -61,8 +62,8 @@ body{
     position: absolute;
 }
 
-.footer p{
+.footer p {
     margin: 0;
     font-size: 15px;
     text-align: center;
-}  
+}
