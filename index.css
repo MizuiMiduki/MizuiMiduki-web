@@ -80,6 +80,39 @@ body {
 }
 
 /*メイン*/
+.heade-virtual-space {
+    margin-top: 4%;
+    width: 70%;
+    height: fit-content;
+    border-radius: 20px;
+    border: black ridge;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-head{
+    margin: 0;
+}
+
+.info-head p{
+    margin: 0;
+    text-align: center;
+}
+
+.info-body{
+    width: 100%;
+    height: fit-content;
+}
+
+.info-iframe{
+    width: 100%;
+}
+
+.info-foot p{
+    margin: 0;
+    text-align: center;
+}
+
 .main h1 {
     text-align: center;
 }
@@ -88,6 +121,7 @@ body {
 .footer {
     margin: 0;
     bottom: 0;
+    height: 30px;
     width: 100%;
     background-color: aqua;
     position: absolute;
