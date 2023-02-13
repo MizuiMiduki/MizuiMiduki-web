@@ -98,7 +98,7 @@ body {
     border: aqua solid;
     background: white;
     border-radius: 20px;
-    box-shadow: 0px 7px 15px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 7px 15px 5px rgba(0, 0, 0, 0.4);
     animation: info-fadein 1s ease 0s 1 normal;
     margin: 1%;
 }
@@ -185,7 +185,7 @@ body {
     border-radius: 20px;
     border: aqua solid;
     width: 100%;
-    box-shadow: 0px 7px 15px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 7px 15px 5px rgba(0, 0, 0, 0.4);
 }
 
 @keyframes twitter-fadein {
