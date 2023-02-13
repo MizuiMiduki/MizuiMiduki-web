@@ -84,15 +84,15 @@ body {
     height: 4em;
 }
 
-.info-and-twitter{
-    display:flex;
+.info-and-twitter {
+    display: flex;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .info-space {
-    width:calc(100%/2);
+    width: calc(100%/2);
     box-sizing: border-box;
     height: fit-content;
     border: aqua solid;
@@ -100,7 +100,7 @@ body {
     border-radius: 20px;
     box-shadow: 0px 7px 15px 5px rgba(0, 0, 0, 0.4);
     animation: info-fadein 1s ease 0s 1 normal;
-    margin: 1%;
+    margin-right: 1%;
 }
 
 @keyframes info-fadein {
@@ -147,7 +147,7 @@ body {
     margin: 0;
     text-align: center;
     border: 2px solid;
-    padding:0 3px 0 3px;
+    padding: 0 3px 0 3px;
     margin-bottom: 3px;
     border-radius: 20px;
     width: fit-content;
@@ -163,7 +163,7 @@ body {
     color: white;
 }
 
-.show-more-button-a{
+.show-more-button-a {
     text-decoration: none;
     color: black;
 }
@@ -172,19 +172,20 @@ body {
     text-align: center;
 }
 
-.twitter-space{
+.twitter-space {
     width: calc(100%/2);
     box-sizing: border-box;
-    margin: 1%;
+    margin-left: 1%
 }
 
-.twitter-space iframe{
+.twitter-space iframe {
     overflow-y: scroll;
     height: 100%;
     animation: twitter-fadein 1s ease 0s 1 normal;
     border-radius: 20px;
     border: aqua solid;
     width: 100%;
+    box-sizing: border-box;
     box-shadow: 0px 7px 15px 5px rgba(0, 0, 0, 0.4);
 }
 
@@ -202,6 +203,67 @@ body {
 
 }
 
+.my-project {
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px 5px rgba(0, 0, 0, 0.4);
+    border: aqua 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background-color: white;
+}
+
+.my-project-head{
+    text-align: center;
+}
+
+.my-project-head p{
+    margin: 0;
+    border-bottom: aqua 2px solid;
+    margin-bottom: 5px;
+}
+
+.my-project-body{
+    text-align: center;
+}
+
+.profile {
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px 5px rgba(0, 0, 0, 0.4);
+    border: aqua 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background-color: white;
+}
+
+.profile-head{
+    text-align: center;
+}
+
+.profile-head p{
+    margin: 0;
+    border-bottom: aqua 2px solid;
+    margin-bottom: 5px;
+}
+
+.profile-body{
+    text-align: center;
+    border-bottom: aqua 2px solid;
+    margin-bottom: 5px;
+}
+
+.profile-sns-icons{
+    text-align: right;
+}
+
+.profile-sns-icons p{
+    margin: 0;
+    margin-right: 10px;
+}
+
 /*フッター(仮)*/
 .footer {
     margin: 0;
@@ -209,7 +271,8 @@ body {
     height: 30px;
     width: 100%;
     background-color: aqua;
-    position: absolute;
+    position: static;
+    margin-top: 2%;
 }
 
 .footer p {
