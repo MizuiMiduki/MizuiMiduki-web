@@ -263,7 +263,10 @@ body {
     margin: 0;
     margin-right: 10px;
 }
-
+.adsbygoogle{
+  margin-left: auto;
+  margin-right: auto;
+}
 /*フッター(仮)*/
 .footer {
     margin: 0;
