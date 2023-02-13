@@ -19,7 +19,6 @@ li{
 p{
     margin-bottom: 5px;
     animation: info-list-fadein 1s ease 0s 1 normal;
-
 }
 
 @keyframes info-list-fadein {

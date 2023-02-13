@@ -8,15 +8,15 @@ body {
 
     /*左上から右下*/
     background-image: repeating-linear-gradient(45deg,
-            rgba(253, 180, 235, 0.50),
-            rgba(253, 180, 235, 0.50) 40px,
+            rgba(180, 210, 253, 0.5),
+            rgba(180, 210, 253, 0.5) 40px,
             transparent 0,
             transparent 80px),
 
         /*右上から左下*/
         repeating-linear-gradient(315deg,
-            rgba(253, 180, 235, 0.50),
-            rgba(253, 180, 235, 0.50) 40px,
+            rgba(180, 210, 253, 0.5),
+            rgba(180, 210, 253, 0.5) 40px,
             transparent 0,
             transparent 80px);
 }
@@ -84,23 +84,30 @@ body {
     height: 4em;
 }
 
-.info-space {
-    width: 70%;
+.info-and-twitter{
+    display:flex;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.info-space {
+    width:calc(100%/2);
+    box-sizing: border-box;
     height: fit-content;
-    border: black ridge;
+    border: aqua solid;
     background: white;
     border-radius: 20px;
     box-shadow: 0px 7px 15px 5px rgba(0, 0, 0, 0.35);
     animation: info-fadein 1s ease 0s 1 normal;
+    margin: 1%;
 }
 
 @keyframes info-fadein {
 
     0% {
         opacity: 0;
-        transform: translate(100%, 0%);
+        transform: translate(-100%, 0%);
     }
 
     100% {
@@ -117,6 +124,8 @@ body {
 .info-head p {
     margin: 0;
     text-align: center;
+    border-bottom: aqua 2px solid;
+    margin-bottom: 5px;
 }
 
 .info-body {
@@ -130,13 +139,66 @@ body {
     width: 100%;
 }
 
-.info-foot p {
+.info-foot {
+    width: 100%;
+}
+
+.show-more-button {
     margin: 0;
     text-align: center;
+    border: 2px solid;
+    padding:0 3px 0 3px;
+    margin-bottom: 3px;
+    border-radius: 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.show-more-button:hover {
+    background-color: black;
+}
+
+.show-more-button:hover .show-more-button-a {
+    color: white;
+}
+
+.show-more-button-a{
+    text-decoration: none;
+    color: black;
 }
 
 .main h1 {
     text-align: center;
+}
+
+.twitter-space{
+    width: calc(100%/2);
+    box-sizing: border-box;
+    margin: 1%;
+}
+
+.twitter-space iframe{
+    overflow-y: scroll;
+    height: 100%;
+    animation: twitter-fadein 1s ease 0s 1 normal;
+    border-radius: 20px;
+    border: aqua solid;
+    width: 100%;
+}
+
+@keyframes twitter-fadein {
+
+    0% {
+        opacity: 0;
+        transform: translate(100%, 0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0%, 0%);
+    }
+
 }
 
 /*フッター(仮)*/
