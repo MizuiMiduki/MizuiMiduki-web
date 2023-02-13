@@ -81,36 +81,56 @@ body {
 
 /*メイン*/
 .heade-virtual-space {
-    margin-top: 4%;
-    width: 70%;
-    height: fit-content;
-    border-radius: 20px;
-    border: black ridge;
-    margin-left: auto;
-    margin-right: auto;
+    height: 4em;
 }
 
-.info-head{
+.info-space {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    border: black ridge;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px 5px rgba(0, 0, 0, 0.35);
+    animation: info-fadein 1s ease 0s 1 normal;
+}
+
+@keyframes info-fadein {
+
+    0% {
+        opacity: 0;
+        transform: translate(100%, 0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0%, 0%);
+    }
+
+}
+
+.info-head {
     margin: 0;
 }
 
-.info-head p{
+.info-head p {
     margin: 0;
     text-align: center;
 }
 
-.info-body{
+.info-body {
     width: 90%;
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
 }
 
-.info-body iframe{
+.info-body iframe {
     width: 100%;
 }
 
-.info-foot p{
+.info-foot p {
     margin: 0;
     text-align: center;
 }
