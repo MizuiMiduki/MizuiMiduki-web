@@ -100,11 +100,13 @@ body {
 }
 
 .info-body{
-    width: 100%;
+    width: 90%;
     height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.info-iframe{
+.info-body iframe{
     width: 100%;
 }
 
