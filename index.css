@@ -263,9 +263,11 @@ body {
     margin: 0;
     margin-right: 10px;
 }
-.adsbygoogle{
-  margin-left: auto;
-  margin-right: auto;
+
+.add{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*フッター(仮)*/
 .footer {
