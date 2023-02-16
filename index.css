@@ -102,12 +102,6 @@ margin-top: 4em;
     right: 2%;
 }
 
-.col3-add{
-    max-width: 14%;
-    max-height: 100%;
-    text-align: center;
-}
-
 .info-and-twitter {
     display: flex;
     width: 90%;
@@ -293,12 +287,6 @@ margin-top: 4em;
     margin-right: 10px;
 }
 
-.add{
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-}
 /*フッター(仮)*/
 .footer {
     margin: 0;
