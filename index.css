@@ -2,7 +2,6 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
     width: 100%;
     background-color: #fff;
 
@@ -166,6 +165,11 @@ body {
 .show-more-button-a {
     text-decoration: none;
     color: black;
+}
+.main{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main h1 {
