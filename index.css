@@ -79,8 +79,26 @@ body {
 }
 
 /*メイン*/
-.heade-virtual-space {
-    height: 4em;
+.col3{
+width: 100%;
+display: flex;
+margin-top: 4em;
+}
+
+.col3-left{
+    width: 15%;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1;
+    left: 2%;
+}
+
+.col3-right{
+    width: 15%;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1;
+    right: 2%;
 }
 
 .info-and-twitter {
