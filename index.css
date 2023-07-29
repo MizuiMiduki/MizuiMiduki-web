@@ -120,14 +120,14 @@ body {
 }
 
 .info-and-twitter {
-    display: flex;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .info-space {
-    width: calc(100%/2);
     box-sizing: border-box;
     height: fit-content;
     border: aqua solid;
@@ -136,6 +136,8 @@ body {
     box-shadow: 0px 7px 15px 5px rgba(0, 0, 0, 0.4);
     animation: info-fadein 1s ease 0s 1 normal;
     margin-right: 1%;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 @keyframes info-fadein {
@@ -214,21 +216,21 @@ body {
 }
 
 .twitter-space {
-    width: calc(100%/2);
     box-sizing: border-box;
-    margin-left: 1%
+    height: fit-content;
+    border: aqua solid;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px 5px rgba(0, 0, 0, 0.4);
+    animation: twitter-fadein 1s ease 0s 1 normal;
+    margin-left: 1%;
+    text-align: center;
+    height: 100%;
+    grid-column: 2;
+    grid-row: 1;
 }
 
-.twitter-space iframe {
-    overflow-y: scroll;
-    height: 100%;
-    animation: twitter-fadein 1s ease 0s 1 normal;
-    border-radius: 20px;
-    border: aqua solid;
-    width: 100%;
-    box-sizing: border-box;
-    box-shadow: 0px 7px 15px 5px rgba(0, 0, 0, 0.4);
-}
+
 
 @keyframes twitter-fadein {
 
@@ -242,6 +244,24 @@ body {
         transform: translate(0%, 0%);
     }
 
+}
+
+.twitter-head {
+    margin: 0;
+}
+
+.twitter-head p {
+    margin: 0;
+    text-align: center;
+    border-bottom: aqua 2px solid;
+    margin-bottom: 5px;
+}
+
+.twitter-body {
+    width: 90%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .my-project {
